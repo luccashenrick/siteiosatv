@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"SansungSansM";
+}
+
+@font-face {
+    font-family: "SansungSansM";
+    src: url("SamsungSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "SansungSansT";
+    src: url("SamsungSans-Thin.ttf");
+}
+
+
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100vh;
+    height: 20vh;
+}
+
+article{
+    text-align: start;
+}
+
+button{
+    background-color: transparent;
+    border: transparent;
+    padding: 1vh;
+    font-size: medium;
+}
+
+button:hover{
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin-right: 3vh;
+}
+
+#container{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 30vh;
+    background-image: url("./15299_01_New-Offer_PF_Desk_1440x344asefd.jpg");
+}
+
+#relo{
+    background-color: white;
+    color: #000;
+    border-radius: 100px;
+}
+
+#relo:hover{
+    background-color: grey;
+}
