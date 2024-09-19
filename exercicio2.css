@@ -1,79 +1,140 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family:"SansungSansM";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "SansungSansM";
 }
 
 @font-face {
-    font-family: "SansungSansM";
-    src: url("SamsungSans-Medium.ttf");
+  font-family: "SansungSansM";
+  src: url("SamsungSans-Medium.ttf");
 }
 
 @font-face {
-    font-family: "SansungSansT";
-    src: url("SamsungSans-Thin.ttf");
+  font-family: "SansungSansT";
+  src: url("SamsungSans-Thin.ttf");
 }
 
+@font-face {
+    font-family: "SansungSansB";
+    src: url("SamsungSans-Bold.ttf");
+  }
 
-header{
-    width: 100vw;
-    height: 15vh;
-    display: flex;
+header {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 100vw;
+  height: 300vh;
+  display: block;
+  justify-content: center;
+  justify-items: center;
+}
+
+footer {
+  width: 100vh;
+  height: 20vh;
+}
+
+article {
+  text-align: start;
+}
+
+button {
+  background-color: transparent;
+  border: transparent;
+  padding: 1vh;
+  font-size: medium;
+}
+
+button:hover {
+  background-color: black;
+  border-radius: 100px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  margin-right: 3vh;
+}
+
+#container {
+  width: 75vw;
+  margin-left: 250px;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: cover;
+  justify-self: center;
+  background-image: url("./15299_01_New-Offer_PF_Desk_1440x344asefd.jpg");
+}
+
+#container,
+p {
+  margin-top: 40px;
+}
+
+#relo {
+  background-color: white;
+  color: #000;
+  border-radius: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+#relo:hover {
+  background-color: grey;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     justify-content: center;
 }
 
-main{
-    width: 100vw;
-    height: 80vh;
+#container2{
+    width: 65vw;
+    height: 55vh;
+    align-items: center;
+    margin-left: 340px;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color: #f7f7f7;
 }
 
-footer{
-    width: 100vh;
-    height: 20vh;
-}
-
-article{
-    text-align: start;
-}
-
-button{
-    background-color: transparent;
-    border: transparent;
-    padding: 1vh;
-    font-size: medium;
-}
-
-button:hover{
-    background-color: black;
-    border-radius: 100px;
-    color: white;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-}
-
-img{
-    margin-right: 3vh;
-}
-
-#container{
-    width: 100;
-    background-repeat: no-repeat;
-    height: 30vh;
-    background-image: url("./15299_01_New-Offer_PF_Desk_1440x344asefd.jpg");
-}
-
-#relo{
+.grid-item1{
     background-color: white;
-    color: #000;
+    height: 550px;
+    width: 20vw;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#compreagr{
+    margin-top: 10px;
+    background-color: #000;
+    color:#f7f7f7;
     border-radius: 100px;
 }
 
-#relo:hover{
+#compreagr:hover{
     background-color: grey;
+}
+
+#container3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 65vh;
 }
