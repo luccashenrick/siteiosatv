@@ -28,7 +28,7 @@ header {
 
 main {
   width: 100vw;
-  height: 300vh;
+  height: 150vh;
   display: block;
   justify-content: center;
   justify-items: center;
@@ -138,3 +138,19 @@ p {
     width: 100vw;
     height: 65vh;
 }
+
+footer{
+  margin-top: 10vh;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#copyright{
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
